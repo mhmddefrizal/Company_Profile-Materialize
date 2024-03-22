@@ -211,7 +211,26 @@
           </div>
           <div class="col m7 s12">
             <form action="">
-              <div class="card-panel"></div>
+              <div class="card-panel">
+                <h5>Please fill out this form</h5>
+                <div class="input-field">
+                  <input type="text" name="name" id="name" required class="validate" />
+                  <label for="name">Name</label>
+                </div>
+                <div class="input-field">
+                  <input type="email" name="email" id="email" class="validate" />
+                  <label for="email">Email</label>
+                </div>
+                <div class="input-field">
+                  <input type="number" name="phone" id="phone" />
+                  <label for="phone">Phone Number</label>
+                </div>
+                <div class="input-field">
+                  <textarea name="message" id="message" class="materialize-textarea"></textarea>
+                  <label for="message">Message</label>
+                </div>
+                <button type="submit" class="btn blue darken-2">Send</button>
+              </div>
             </form>
           </div>
         </div>
