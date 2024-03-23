@@ -24,6 +24,7 @@ body {
   filter: drop-shadow(1px 1px 1px black);
 }
 
-section {
+section,
+footer {
   padding: 20px 0;
 }
